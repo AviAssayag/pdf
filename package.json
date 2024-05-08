@@ -1,8 +1,16 @@
 {
+  "name": "pdf",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "express": "^4.19.2",
-    "n": "^9.2.3",
-    "require": "^0.4.4",
-    "stable": "^0.1.8"
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "morgan": "~1.9.1"
   }
 }
